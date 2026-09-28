@@ -1,0 +1,31 @@
+{
+  "architecture": "aarch64",
+  "compiler": "aarch64-linux-gnu-g++ 9.4.0",
+  "opencv": "4.10.0",
+  "ffmpeg": "4.4.5",
+  "ffmpeg_linkage": "static inside shared OpenCV videoio",
+  "ffmpeg_decoders": [
+    "h264",
+    "mpeg4",
+    "mjpeg"
+  ],
+  "ffmpeg_demuxers": [
+    "mov",
+    "avi",
+    "image2"
+  ],
+  "ffmpeg_encoders": [
+    "mpeg4",
+    "mjpeg"
+  ],
+  "rknn_runtime": "2.3.2",
+  "rga": "1.10.0",
+  "sha256": {
+    "third_party/rknn/lib/librknnrt.so": "d31fc19c85b85f6091b2bd0f6af9d962d5264a4e410bfb536402ec92bac738e8",
+    "third_party/rga/lib/librga.so": "d0f5ae5c18c4c54ccee1d697b60f94507c5827389bb8fe9d4b0a4cb39cdc5972",
+    "third_party/opencv/lib/libopencv_core.so.4.10.0": "4b657c08d6ce22520310302efa0f752c0df692294d81c38da3b4ac7c8a6c0221",
+    "third_party/opencv/lib/libopencv_videoio.so.4.10.0": "126904864ef891f43032745f5d32ac7d8ff0172ba3b440adf983fb27a624f6a3",
+    "third_party/opencv/lib/libopencv_imgproc.so.4.10.0": "9c1ad8d5a5698ed68b0e5795d5348b9398cb7c0275a39c82ff697af388b1a9e1",
+    "third_party/opencv/lib/libopencv_imgcodecs.so.4.10.0": "658862cbf19593189bfa1864b7a1e2527f5a6390c772787ea4a9086cf23d3d43"
+  }
+}

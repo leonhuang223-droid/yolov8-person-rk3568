@@ -1,0 +1,20 @@
+{
+  "file": "best.rknn",
+  "sha256": "070e701b7123fc2da1ee30b6a4314cfaa66dabbe8baf1a5025c9802514ac4dc8",
+  "original": "rknn_model_zoo-main/examples/yolov8/model/best.rknn",
+  "target": "rk3568",
+  "toolkit_version": "2.3.2",
+  "input_shape": [1, 416, 416, 3],
+  "input_quantization": "INT8",
+  "application_input": "UINT8 NHWC RGB, pass_through=0",
+  "normalization": {"mean": [0, 0, 0], "std": [255, 255, 255]},
+  "letterbox_color": [0, 0, 0],
+  "classes": ["person"],
+  "output_branches": [
+    {"grid": 52, "channels": [64, 1, 1]},
+    {"grid": 26, "channels": [64, 1, 1]},
+    {"grid": 13, "channels": [64, 1, 1]}
+  ],
+  "output_layout": "INT8 NCHW: DFL / sigmoid classification / score_sum",
+  "reconverted": false
+}

@@ -1,0 +1,16 @@
+{
+  "file": "test.mp4",
+  "source_url": "https://raw.githubusercontent.com/opencv/opencv/4.10.0/samples/data/vtest.avi",
+  "source_page": "https://github.com/opencv/opencv/blob/4.10.0/samples/data/vtest.avi",
+  "source_file": "vtest.avi",
+  "source_sha256": "45cddc9490be69345cbdab64ca583be65987e864ca408038e648db99e10516cf",
+  "sha256": "19c1ab5b28e9fdab9515f8153bd8640ec472a358bba836a22575cc112dcc4b13",
+  "width": 768,
+  "height": 576,
+  "fps": 10.0,
+  "frames": 200,
+  "seconds": 20.0,
+  "codec": "FMP4",
+  "bytes": 3024253,
+  "processing": "First 20 seconds, MPEG-4 mp4v video-only encoding, no detection annotations"
+}
